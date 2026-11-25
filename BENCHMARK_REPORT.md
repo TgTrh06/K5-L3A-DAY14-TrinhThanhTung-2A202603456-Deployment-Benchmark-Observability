@@ -74,10 +74,10 @@
 
 ### 4.1 Screenshot
 
-- [ ] `screenshots/grafana-dashboard.png` — Dashboard Grafana khi đang có tải
-- [ ] `screenshots/jaeger-slow-trace.png` — Một trace chậm trong Jaeger
-- [ ] `screenshots/jaeger-error-trace.png` — Một trace lỗi trong Jaeger (có event `exception`)
-- [ ] `screenshots/prometheus-alert-firing.png` — Trang Alerts của Prometheus thấy ≥ 2 alert đang **firing**
+- [x] `screenshots/grafana-dashboard.png` — Dashboard Grafana khi đang có tải
+- [x] `screenshots/jaeger-slow-trace.png` — Một trace chậm trong Jaeger
+- [x] `screenshots/jaeger-error-trace.png` — Một trace lỗi trong Jaeger (có event `exception`)
+- [x] `screenshots/prometheus-alert-firing.png` — Trang Alerts của Prometheus thấy ≥ 2 alert đang **firing**
 
 ### 4.2 Thí nghiệm "phá hệ thống" (dựa trên `prometheus/alert_rules.yml`)
 
