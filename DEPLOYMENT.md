@@ -1,16 +1,16 @@
 # Deployment Information
 
 ## Public URL
-*(Điền URL public sau khi deploy `06-lab-complete/` lên Railway hoặc Render)*
+https://06-lab-complete-production-255d551f.up.railway.app
 
 ## Platform
-Railway / Render
+Railway
 
 ## Test Commands
 
 ### Health & Readiness Check
 ```bash
-BASE="https://your-agent.railway.app"
+BASE="https://06-lab-complete-production-255d551f.up.railway.app"
 curl -sS -o /dev/null -w '%{http_code}\n' "$BASE/health"   # Expected: 200
 curl -sS -o /dev/null -w '%{http_code}\n' "$BASE/ready"    # Expected: 200
 ```
